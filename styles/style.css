@@ -1,0 +1,88 @@
+:root {
+  --primary-color: #2947a9;
+  --feature-card-color: #3559c7;
+  --secondery-color: #f9995d;
+  --text-neutral: #14171f;
+  --text-neutral-70: #3d445c;
+  --text-neutral-400: #858ead;
+  --border-color: #e0e3eb;
+}
+
+body {
+  background-color: white;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  padding: 0 112px;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#logo img {
+  width: 38px;
+  height: 47.5px;
+  margin-right: 14px;
+}
+
+#logo h1 {
+  color: var(--primary-color);
+  font-size: 30px;
+}
+
+#logo span {
+  font-style: italic;
+}
+
+header li {
+  margin: 0 25px;
+  font-size: 18px;
+  line-height: 21px;
+  display: inline-block;
+}
+a {
+  color: var(--text-neutral);
+}
+
+a:hover {
+  color: var(--secondery-color);
+  transition: 0.3s all;
+}
+
+#contact-us-btn {
+  color: var(--secondery-color);
+}
+
+main {
+  margin: 0;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#home-main {
+  background: url("../components/img/Hero.png");
+  height: 646px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home-main h1 {
+  font-size: 71px;
+  line-height: 1px;
+}
